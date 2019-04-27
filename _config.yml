@@ -1,0 +1,28 @@
+# Site specific settings
+title: "untitled"
+name: "An untitled blog"
+keywords: "Key, words, about, this, website"
+baseurl: ""
+url: "https://untitledh.github.io"
+description: "An untitled blog"
+#cover: "/assets/img/cover.svg"
+fanpage_id: ""
+
+paginate: 5
+paginate_path: "/page:num"
+
+# Site general settings
+lang: "en"
+lang_alternate: "jp"
+ssl: false # It will redirect to https
+
+# Media
+disqus: 
+twitter: 
+facebook: 
+github: untitledH
+google:
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
